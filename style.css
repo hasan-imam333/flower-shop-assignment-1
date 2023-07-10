@@ -149,6 +149,9 @@ header {
     font-weight: 800;
     text-align:center;
 }
+.hot-deal-color{
+    color:#E55473;
+}
 
 .hot-deal-description-1 {
     padding: 24px 186px 0px 425px;
