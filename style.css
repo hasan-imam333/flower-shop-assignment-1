@@ -132,7 +132,6 @@ header {
 /* Hot deal part */
 .hot-deal {
     margin-top: 128px;
-    height: 50vh;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -165,6 +164,38 @@ header {
     font-weight: 700;
 }
 
-.hot-deal-flower-1-1{
-    padding:100px 429px 100px 0px;
+.hot-deal-flower-1-1 {
+    padding: 100px 429px 100px 0px;
+}
+
+.instragram {
+    margin-top: 130px;
+}
+
+.instragram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instragram-description-1 {
+    margin-top: 24px;
+}
+
+.instragram-description-1-1 {
+    width: 30%;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instragram-flower {
+    margin: 48px 240px 0px 240px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 24px;
 }
