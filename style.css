@@ -168,22 +168,23 @@ header {
     padding: 100px 429px 100px 0px;
 }
 
-.instragram {
+/*instagram part */
+.instagram {
     margin-top: 130px;
 }
 
-.instragram-title {
+.instagram-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
 
-.instragram-description-1 {
+.instagram-description-1 {
     margin-top: 24px;
 }
 
-.instragram-description-1-1 {
+.instagram-description-1-1 {
     width: 30%;
     margin: auto;
     color: rgba(39, 39, 39, 0.60);
@@ -193,9 +194,72 @@ header {
     line-height: 30px;
 }
 
-.instragram-flower {
+.instagram-flower {
     margin: 48px 240px 0px 240px;
     display: flex;
     justify-content: space-around;
     column-gap: 24px;
+}
+
+/*Latest deal part */
+
+.latest-deal-bg-image {
+    margin: 128px 240px 0px 240px;
+    background-image: url('rectangle29.png');
+}
+
+.latest-deal{
+    padding:122px 287px;
+}
+
+.deal-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-announcement {
+    margin-top: 16px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.latest-deal-email-1 {
+    margin-top: 48px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+
+}
+
+.latest-deal-email-1-1 {
+    border-radius: 8px;
+    background: white;
+    padding: 23px 513px 22px 22px;
+    border: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.deal-subscribe-1 {
+    margin-top: 48px;
+}
+
+.deal-subscribe-1-1 {
+    padding: 18px 30px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 8px;
+    background: #E55473;
 }
