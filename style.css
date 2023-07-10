@@ -33,6 +33,7 @@ header {
 
 .header-btn-cont {
     margin-top: 32px;
+    padding-bottom: 147px;
 }
 
 .header-btn {
@@ -206,7 +207,7 @@ header {
 .latest-deal-bg-image {
     margin: 128px 240px 0px 240px;
     background-image: url('rectangle29.png');
-    background-size:cover;
+    background-size: cover;
 }
 
 .latest-deal {
@@ -269,11 +270,11 @@ form {
 footer {
     margin-top: 128px;
     background-color: black;
-    padding:128px 648px;
+    padding: 128px 648px;
 }
 
 .footer-title {
-     color: white;
+    color: white;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
