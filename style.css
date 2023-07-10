@@ -128,3 +128,43 @@ header {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+/* Hot deal part */
+.hot-deal {
+    margin-top: 128px;
+    height: 50vh;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-deal-title {
+    padding: 230px 0px 0px 424px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-description {
+    padding: 24px 186px 0px 395px;
+}
+
+.sign-btn-1 {
+    margin-top: 32px;
+    padding-left: 603px;
+}
+
+.sign-btn-1-1 {
+    padding: 20px 43px 20px 43px;
+    border: 0px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hot-deal-flower-1-1{
+    padding:100px 429px 100px 0px;
+}
