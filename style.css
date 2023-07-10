@@ -1,3 +1,4 @@
+/*universal Part style */
 * {
     margin: 0px;
 }
@@ -6,21 +7,23 @@ body {
     font-family: lato;
 }
 
+/*Header Part style */
 header {
     display: flex;
+    justify-content: space-between;
     background-color: rgba(229, 84, 115, 0.10);
-    padding:0px 240px;
+    padding: 0px 240px;
 }
 
 .header-title {
-    margin-top:197px;
+    margin-top: 197px;
     color: #272727;
     font-size: 80px;
     font-weight: 800;
 }
 
 .header-description {
-    margin-top:32px;
+    margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -28,21 +31,100 @@ header {
     line-height: 30px;
 }
 
-.header-btn-cont{
-margin-top:32px;
+.header-btn-cont {
+    margin-top: 32px;
 }
 
 .header-btn {
     border-radius: 8px;
     background: #E55473;
-    padding:20px 43px;
-    border:0px;
+    padding: 20px 43px;
+    border: 0px;
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
 }
 
-.header-image{
-    margin-top:50px;
+.header-image {
+    margin-top: 50px;
+}
+
+/*Feature Part style */
+
+.feature-segment {
+    margin-top: 178px;
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-description-1 {
+    margin-top: 24px;
+}
+
+.feature-description-2 {
+    width: 30%;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.flower-container {
+    margin: 48px 240px 0px 240px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+
+}
+
+.flower-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 370px;
+    height: 471px;
+}
+
+.flower-1-1 {
+    padding: 40px 0px 0px 20px;
+}
+
+.flower-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 370px;
+    height: 471px;
+}
+
+.flower-2-1 {
+    padding: 70px 0px 0px 20px;
+}
+
+.flower-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 370px;
+    height: 471px;
+}
+
+.flower-3-1 {
+    padding-left: 20px;
+}
+
+.flower-name {
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
