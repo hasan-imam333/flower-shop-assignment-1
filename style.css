@@ -206,6 +206,7 @@ header {
 .latest-deal-bg-image {
     margin: 128px 240px 0px 240px;
     background-image: url('rectangle29.png');
+    background-size:cover;
 }
 
 .latest-deal {
