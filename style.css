@@ -147,10 +147,11 @@ header {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    text-align:center;
+    text-align: center;
 }
-.hot-deal-color{
-    color:#E55473;
+
+.hot-deal-color {
+    color: #E55473;
 }
 
 .hot-deal-description-1 {
@@ -182,6 +183,78 @@ header {
 
 .hot-deal-flower-1-1 {
     padding: 100px 429px 100px 0px;
+}
+
+/*Our Branches*/
+
+.our-branch {
+    margin-top: 130px;
+}
+
+.branch-title {
+    color: #272727;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.branch-description {
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 24px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.branch {
+    margin: 48px 240px 0px 240px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    color: black;
+}
+
+.branch-segment-1 {
+    background-image: url('New folder (4)/f_1.jpeg'), linear-gradient(rgba(247, 242, 242, 0.795), rgba(240, 235, 235, 0.76));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.branch-segment-1-1 {
+    padding: 40px;
+    font-weight: 800px;
+}
+
+.branch-segment-2 {
+    background-image: url('New folder (4)/f_7.jpg'), linear-gradient(rgba(247, 242, 242, 0.795), rgba(240, 235, 235, 0.76));
+    background-blend-mode: overlay;
+    ;
+    background-size: cover;
+}
+
+.branch-segment-3 {
+    background-image: url('New folder (4)/f_3.jpg'), linear-gradient(rgba(247, 242, 242, 0.795), rgba(240, 235, 235, 0.76));
+    background-blend-mode: overlay;
+    ;
+    background-size: cover;
+}
+
+.branch-no {
+    font-size: 38px;
+    text-decoration: underline;
+}
+
+.branch-name {
+    margin-top: 16px;
+    font-size: 35px;
+}
+
+.address-1 {
+    margin-top: 16px;
+    font-size: 28px;
+}
+
+.address-name {
+    font-size: 26px;
 }
 
 /*instagram part */
