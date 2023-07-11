@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     background-color: rgba(229, 84, 115, 0.10);
     padding: 0px 240px;
+    column-gap: 180px;
 }
 
 .header-title {
@@ -25,8 +26,7 @@ header {
 .header-description {
     margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -74,7 +74,7 @@ header {
     margin: auto;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -162,7 +162,7 @@ header {
     margin: auto;
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -171,7 +171,7 @@ header {
 .sign-btn-1 {
     margin-top: 32px;
     padding-left: 603px;
-   }
+}
 
 .sign-btn-1-1 {
     padding: 20px 43px 20px 43px;
@@ -195,7 +195,7 @@ header {
 
 .branch-title {
     color: #272727;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
 
 }
@@ -203,7 +203,7 @@ header {
 .branch-description {
     color: rgba(39, 39, 39, 0.60);
     margin-top: 24px;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -212,7 +212,6 @@ header {
     display: flex;
     justify-content: space-between;
     column-gap: 24px;
-    color: black;
 }
 
 .branch-segment-1 {
@@ -223,7 +222,7 @@ header {
 
 .branch-segment-1-1 {
     padding: 40px;
-    font-weight: 800px;
+    color: #272727;
 }
 
 .branch-segment-2 {
@@ -241,23 +240,65 @@ header {
 }
 
 .branch-no {
-    font-size: 38px;
+    font-size: 30px;
     text-decoration: underline;
 }
 
 .branch-name {
-    margin-top: 16px;
-    font-size: 35px;
-}
-
-.address-1 {
-    margin-top: 16px;
+    margin-top: 14px;
     font-size: 28px;
 }
 
-.address-name {
-    font-size: 26px;
+.address-1 {
+    margin-top: 24px;
+    font-size: 24px;
 }
+
+.address-name {
+    font-size: 22px;
+}
+
+/* celebration Part */
+
+.celebration {
+    margin: 130px 240px 0px 240px;
+    background-color: rgb(253, 242, 226);
+    padding: 100px 100px 50px 100px;
+}
+
+.celebration-heading {
+    font-size: 40px;
+    text-align: center;
+    color: #272727;
+    padding-bottom: 50px;
+}
+
+.marriage {
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.marriage-img {
+    width: 600px;
+}
+
+.marriage-title {
+    font-size: 35px;
+    color: #272727;
+    text-align: center;
+}
+
+.marriage-description {
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 
 /*instagram part */
 .instagram {
@@ -280,7 +321,7 @@ header {
     margin: auto;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -315,7 +356,7 @@ header {
     margin-top: 16px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 30px;
 }
