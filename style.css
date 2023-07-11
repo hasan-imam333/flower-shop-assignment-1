@@ -7,6 +7,34 @@ body {
     font-family: lato;
 }
 
+/* Top side */
+.top-side {
+    padding: 25px 240px 25px 240px;
+    background-color: rgb(248, 135, 135);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-side-image {
+    width: 50px;
+}
+
+.top-side-header {
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.unorder-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.list-name {
+    font-size: 25px;
+    font-weight: 200px;
+    list-style: none;
+}
+
 /*Header Part style */
 header {
     display: flex;
