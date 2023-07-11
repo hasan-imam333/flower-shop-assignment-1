@@ -381,6 +381,13 @@ footer {
     line-height: 30px;
 }
 
+.social-media {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
 .footer-bottom {
     margin-top: 32px;
     color: rgba(255, 255, 255, 0.40);
